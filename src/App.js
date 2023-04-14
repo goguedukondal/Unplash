@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function App() {
   const [fetchData, setFetchData] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("software");
+  const [query, setQuery] = useState("Tiger");
 
   useEffect(() => {
    
